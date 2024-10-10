@@ -1,0 +1,54 @@
+<html lang="en">
+    <head>
+        <title>flexbox</title>
+        <style>
+            .container{
+                display:flex;
+                flex-direction:column;
+                flex-wrap: wrap;
+            }
+
+            .content{
+                width: 200px;
+                background-color: aqua;
+                border: 2px solid blue;
+                margin: 10px;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="continer">
+            <div class="content" style="order: 2">
+                <h1>Ini Konten 1</h1>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro at, optio quis doloremque corporis ratione repellat recusandae aspernatur nemo suscipit est quasi tempore quas tempora consequuntur fuga! Quod, dignissimos rerum?
+                </p>
+            </div>
+        </div>
+        <div class="continer">
+            <div class="content" style="order: 1">
+                <h1>Ini Konten 2</h1>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro at, optio quis doloremque corporis ratione repellat recusandae aspernatur nemo suscipit est quasi tempore quas tempora consequuntur fuga! Quod, dignissimos rerum?
+                </p>
+            </div>
+        </div>
+        <div class="continer">
+            <div class="content" style="order: 4">
+                <h1>Ini Konten 3</h1>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro at, optio quis doloremque corporis ratione repellat recusandae aspernatur nemo suscipit est quasi tempore quas tempora consequuntur fuga! Quod, dignissimos rerum?
+                </p>
+            </div>
+        </div>
+        <div class="continer">
+            <div class="content" style="order: 3">
+                <h1>Ini Konten 4</h1>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro at, optio quis doloremque corporis ratione repellat recusandae aspernatur nemo suscipit est quasi tempore quas tempora consequuntur fuga! Quod, dignissimos rerum?
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
