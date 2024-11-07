@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const score = 91;
+        let grade;
+
+        switch (score){
+            case 91:
+            case 90:
+                grade = 'A';
+                break;
+            case 80:
+                grade = 'B';
+                break;
+            case 70:
+                grade = 'C';
+                break;
+            case 60:
+                grade = 'D';
+                break;
+            default:
+                grade = 'E';
+        }
+
+        document.write(`Your Grade is: ${grade}`);
+    </script>
+</body>
+</html>
